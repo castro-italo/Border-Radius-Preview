@@ -1,0 +1,138 @@
+::placeholder {
+    color: #898989;
+}
+
+/*RESETING ALL BROWSER DEFAULT STYLE*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira Code";
+    color: #9DE482;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #222629;
+}
+
+/*HEADER 181c1f*/
+
+/*WEB SITE BROWSER STYLE*/
+header {
+    width: 100%;
+    height: 8%;
+    padding: 10px;
+    background-color: #181C1F;
+    border-bottom: 1px solid #ADB5BD;
+}
+
+header > img[id="icon"] {
+    width: 15%;
+    height: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header > p {
+    display: none;
+}
+
+@media (min-width: 950px) {
+    header > img {
+        float: left;
+        transform: translateY(8%);
+        display: inherit;
+        margin: 0;
+    }
+    header > p {
+        font-size: 3vh;
+        transform: translate(0, 30%);
+        display: inherit;
+    }
+}
+
+main {
+    width: 100%;
+    height: calc(100% - 8%);
+    padding: 10px;
+}
+
+form > input, button {
+    border: 0;
+    margin: 5px;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #444444;
+    color: #FFFFFF;
+}
+
+button {
+    font-size: 2.5vh;
+}
+
+@media (min-width: 950px) {
+    form > input, button {
+        border: 0;
+        margin: 5px;
+        padding: 10px;
+        display: block;
+        width: 30%;
+        height: 50px;
+        border-radius: 5px;
+        background-color: #444444;
+        color: #FFFFFF;
+    }
+}
+
+#box {
+    width: 90%;
+    height: 50%;
+    border: 5px solid #9DE482;
+    margin: 5% auto;
+}
+
+textarea {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: inherit;
+    resize: none; 
+    background-color: #444444;
+    color: #202020;
+    text-align: center; 
+    font-size: 2vh;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+@media (min-width: 950px) {
+    textarea {
+        font-size: 2.5vh;
+    }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button { /*Chrome*/
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] { /*Mozila*/
+    -moz-appearance: textfield;
+}
+
+button[id="send-code"] {
+    display: none;
+}
+
+
