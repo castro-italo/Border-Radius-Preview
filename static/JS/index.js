@@ -1,4 +1,4 @@
-// Click event to 'Preview' button
+// Click function to 'Preview' button
 document.getElementById("send-radius")
     .addEventListener("click", () => {
         let code = "";
@@ -17,7 +17,7 @@ document.getElementById("send-radius")
             .style.display = "block"
     });
 
-// Click event to 'Copy Code' button
+// Click function to 'Copy Code' button
 document.getElementById("send-code")
     .addEventListener("click", () => {
         let copyText = document.getElementById("code");

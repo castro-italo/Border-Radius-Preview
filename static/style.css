@@ -51,7 +51,7 @@ header > p {
     }
     header > p {
         font-size: 3vh;
-        transform: translate(0, 30%);
+        transform: translate(-4%, 20%);
         display: inherit;
     }
 }
@@ -104,10 +104,10 @@ textarea {
     height: 100%;
     padding: 10px;
     border-radius: inherit;
-    resize: none; 
+    resize: none;
     background-color: #444444;
     color: #202020;
-    text-align: center; 
+    text-align: center;
     font-size: 2vh;
 }
 
